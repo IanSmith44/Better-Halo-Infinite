@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
     controller.Move(velocity * Time.deltaTime);
 
-    if (transform.position.y < -3) {
+    if (transform.position.y < -10) {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
   }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gun : MonoBehaviour
 {
@@ -9,12 +10,18 @@ public class gun : MonoBehaviour
     public float range = 100f;
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
+    public GameObject[] enemies;
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+        }
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        if (enemies.Length == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     void Shoot () 
@@ -30,6 +37,11 @@ public class gun : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+            }
+            masterChief masterChief = hit.transform.GetComponent<masterChief>();
+            if (masterChief != null)
+            {
+                masterChief.TakeDamage(damage);
             }
         }
     }
