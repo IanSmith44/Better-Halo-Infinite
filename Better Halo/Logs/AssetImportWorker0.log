@@ -15,7 +15,7 @@ D:/ian93/Documents/Github Repositories/Better-Halo-Infinite/Better Halo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49545
+52541
 Successfully changed project path to: D:/ian93/Documents/Github Repositories/Better-Halo-Infinite/Better Halo
 D:/ian93/Documents/Github Repositories/Better-Halo-Infinite/Better Halo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/ian93/Documents/Github Repositories/Better-Halo-Infinite/Better Halo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 62.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009724 seconds.
+Registered in 0.009640 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,39 +87,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.585 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (585ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (511ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (369ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005567 seconds.
+Registered in 0.004494 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -131,32 +131,32 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  0.951 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (741ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (321ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -165,12 +165,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.5 KB). Loaded Objects now: 3907.
+Unloading 25 unused Assets / (55.6 KB). Loaded Objects now: 3907.
 Memory consumption went from 120.4 MB to 120.4 MB.
-Total: 3.183600 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.616800 ms  DeleteObjects: 0.077400 ms)
+Total: 3.793200 ms (FindLiveObjects: 0.312600 ms CreateObjectMapping: 0.176700 ms MarkObjects: 3.225200 ms  DeleteObjects: 0.077700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,151 +184,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 548.885699 seconds.
-  path: Assets/Ground Check 1.prefab
-  artifactKey: Guid(c0ef9183717777948a32504e3b59b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground Check 1.prefab using Guid(c0ef9183717777948a32504e3b59b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da89e7c1750f6f1cd2fa66aa2b18c1') in 0.050039 seconds 
+  Time since last request: 5767.283565 seconds.
+  path: Assets/Materials/Master Chef 4.mat
+  artifactKey: Guid(935de8c7a54007d4d82f78c3ce9ec09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 4.mat using Guid(935de8c7a54007d4d82f78c3ce9ec09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97373818e181821d0ad92addf2cc3020') in 0.130329 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 605.829334 seconds.
-  path: Assets/masterChief1.cs
-  artifactKey: Guid(246972bfbde909544ae3bd5c315df866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/masterChief1.cs using Guid(246972bfbde909544ae3bd5c315df866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f6d6daf04a2d828bb4b0a2eb07fd7') in 0.008337 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004483 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Domain Reload Profiling:
-	ReloadAssembly (764ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3911.
-Memory consumption went from 118.9 MB to 118.8 MB.
-Total: 2.976500 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.567800 ms  DeleteObjects: 0.021500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004617 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\ian93\Documents\Github Repositories\Better-Halo-Infinite\Better Halo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (295ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.8 KB). Loaded Objects now: 3914.
-Memory consumption went from 118.9 MB to 118.9 MB.
-Total: 2.799400 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.402300 ms  DeleteObjects: 0.020500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Master Chef 6.mat
+  artifactKey: Guid(b519cd5618cf67f479c71007a2fbfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 6.mat using Guid(b519cd5618cf67f479c71007a2fbfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04bf20c56e881b72304dbc5e4137647') in 0.025322 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5816.777470 seconds.
-  path: Assets/Scenes/Play Screen.unity
-  artifactKey: Guid(8f035793b61263b4180ae3d7f85c0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Play Screen.unity using Guid(8f035793b61263b4180ae3d7f85c0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1887b734f8344ae417fba25499c4a8fd') in 0.014206 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Master Chef 21.mat
+  artifactKey: Guid(3a3e624bbcb42444b953b324c07fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 21.mat using Guid(3a3e624bbcb42444b953b324c07fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620638e4336cd24477b1655918f82b51') in 0.143393 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.713885 seconds.
-  path: Assets/Scenes/Scene 1.scenetemplate
-  artifactKey: Guid(f5fca4fc96c5f09408a4629c3eb4ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 1.scenetemplate using Guid(f5fca4fc96c5f09408a4629c3eb4ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22559571d5612bfb07a63228e407308') in 0.093296 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Master Chef 3.mat
+  artifactKey: Guid(cc36f87ae99f7aa4fb42ba552c8906ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 3.mat using Guid(cc36f87ae99f7aa4fb42ba552c8906ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6732e460e9e6299c1d85dbb991c18321') in 0.032314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Master Chef 1.mat
+  artifactKey: Guid(0019f6722d7cf004caa037ca0378f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 1.mat using Guid(0019f6722d7cf004caa037ca0378f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070a9d088ee9422b694203558f1a76a0') in 0.011773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Master Chef 16.mat
+  artifactKey: Guid(81d815a8613e5cb4cb099b25b2a3b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 16.mat using Guid(81d815a8613e5cb4cb099b25b2a3b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e735f730516e39dffb419ae8edc9bc4') in 0.036084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(095392d8380fb3e42bc69ad2ad8820d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(095392d8380fb3e42bc69ad2ad8820d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7085182dceeae4a0f5094fa5b83f598a') in 0.001963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Master Chef 15.mat
+  artifactKey: Guid(8e40a56518afd594b821d53fa6ef1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 15.mat using Guid(8e40a56518afd594b821d53fa6ef1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eafb1d4a0fe47202d9e6b6669a6e2c') in 0.043373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Master Chef 19.mat
+  artifactKey: Guid(bf1d249ddaa6564488fcc46fe8f7c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 19.mat using Guid(bf1d249ddaa6564488fcc46fe8f7c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fd5eff6b83c68ca730a73ed3410caa') in 0.016989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Master Chef 17.mat
+  artifactKey: Guid(365739b6d478fd04097f139a190fcbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 17.mat using Guid(365739b6d478fd04097f139a190fcbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff20a71a8abe3cbc13086c48512798f') in 0.032982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Master Chef 11.mat
+  artifactKey: Guid(8d45c6f20b0f88f41ae5753ace623234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 11.mat using Guid(8d45c6f20b0f88f41ae5753ace623234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653d43c3957e09efd8550867bfd1600') in 0.042430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Master Chef 13.mat
+  artifactKey: Guid(6dcfd766a78c76f48aaf9195abd99004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 13.mat using Guid(6dcfd766a78c76f48aaf9195abd99004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ef70f697cb327cb7da94458f33930') in 0.015708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Master Chef 10.mat
+  artifactKey: Guid(7a6c5f000a08dd14c9db137ee53b52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 10.mat using Guid(7a6c5f000a08dd14c9db137ee53b52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caa37a1d370d314c519e4aad5a9934b') in 0.014771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/crosshair.mat
+  artifactKey: Guid(d80a296f77a700043916b57c6af4ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/crosshair.mat using Guid(d80a296f77a700043916b57c6af4ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e3f687da453c7968da92a9405acd6') in 0.039545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002868 seconds.
+  path: Assets/Materials/Master Chef 5.mat
+  artifactKey: Guid(7c45a42095c030a49ac0b1e40b114f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 5.mat using Guid(7c45a42095c030a49ac0b1e40b114f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15edcf98e5354e6f8ab98286b3e9a56b') in 0.065918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Master Chef 9.mat
+  artifactKey: Guid(a2fc2cb2b1090bd40b2c3cd0671fcdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Master Chef 9.mat using Guid(a2fc2cb2b1090bd40b2c3cd0671fcdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4717a09b4427ad0b382e6eec9a3c27bb') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/flood infection form.mat
+  artifactKey: Guid(620bf3a2af0f42d47bccb33ccdd47550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flood infection form.mat using Guid(620bf3a2af0f42d47bccb33ccdd47550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a73c2c929ac27fbc876450eb290e3') in 0.085441 seconds 
